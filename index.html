@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppgave - mer om variabler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body">
+    <h2>Velg farge</h2>
+    <div class="color-fields-grid">
+        <div
+            id="select-red"
+            onclick="selectColor('red')">
+        </div>
+        <div
+            id="select-blue"
+            onclick="selectColor('blue')">
+        </div>
+        <div 
+            id="select-green"
+            onclick="selectColor('green')">
+        </div>
+        <div
+            id="select-black"
+            onclick="selectColor('black')">
+        </div>
+        <div
+            id="select-white"
+            onclick="selectColor('white')">
+        </div>
+    </div>
+    <p><button onclick="setBackgroundColor()">Set bakgrunnsfarge</button></p>
+    <h2>Lagre farger</h2>
+    <div class="color-fields-grid">
+        <div
+            onclick="saveSelectedColor(this)">
+        </div>
+        <div
+            onclick="saveSelectedColor(this)">
+        </div>
+        <div 
+            onclick="saveSelectedColor(this)">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

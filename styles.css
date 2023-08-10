@@ -1,0 +1,36 @@
+.color-fields-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+    .color-fields-grid div {
+        border: 1px solid black;
+        border-radius: 1rem;
+        min-height: 150px;
+        cursor: pointer;
+    }
+
+    .color-fields-grid #select-red {
+        background-color: red;
+    }
+
+    .color-fields-grid #select-blue {
+        background-color: blue;
+    }
+
+    .color-fields-grid #select-green {
+        background-color: green;
+    }
+
+    .color-fields-grid #select-black {
+        background-color: black;
+    }
+
+    .color-fields-grid #select-white {
+        background-color: white;
+    }
+
+    .color-fields-grid .active-color {
+        border-width: 0.5rem;
+    }
